@@ -1,0 +1,65 @@
+/* app.css */
+
+/* .pageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #7e75757c;
+} */
+
+.login {
+    width: 40vw;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #4E5275, #6A7080, #333748); /* Adjust background gradient or color as needed */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 5%;
+    max-height: 100vh;
+    
+  }
+  
+  .loginHeading {
+    text-align: center;
+    border-bottom: 2px solid white;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    
+    margin-bottom: 1rem;
+  }
+  
+  .UserValue {
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+  }
+  
+  .UserValue input,
+  .UserValue button {
+    width: 100%;
+    max-width: 300px;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .UserValue button {
+    background-color: #6A7080;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .UserValue button:hover {
+    background-color: #4E5275;
+  }
+  
